@@ -1,5 +1,8 @@
 # MemeDealer
 A discord bot that steals developer memes from subreddits. 
+
+![](images/demo.gif)
+
 I've written an article for creating this bot. Check it out for any setup issues.
 
 ### Installation
