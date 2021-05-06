@@ -6,7 +6,7 @@ module.exports = {
   fetchSubRedditPosts: () => {
     const subreddit = getRandomSubreddit();
     return new Promise((resolve, reject) => {
-      axios.get(`https://www.reddit.com/${subreddit}/top.json`).then((resp) => {
+      axios.get(`https://www.reddit.com/${subreddit}/.json`).then((resp) => {
         console.log(subreddit)
         resolve(resp.data.data.children)
       }).catch((err) => {
